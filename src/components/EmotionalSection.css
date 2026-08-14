@@ -1,0 +1,43 @@
+.emotional-section {
+  position: relative;
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.emotional-section__media { position: absolute; inset: 0; }
+.emotional-section__media img { width: 100%; height: 100%; object-fit: cover; }
+.emotional-section__scrim {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(22,18,10,0.55), rgba(22,18,10,0.72));
+}
+
+.emotional-section__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+}
+
+.emotional-section__quote {
+  color: #fbf3e6;
+  font-size: clamp(34px, 5.5vw, 58px);
+  line-height: 1.15;
+  margin-bottom: 26px;
+}
+
+.emotional-section__sub {
+  color: rgba(251, 243, 230, 0.82);
+  font-size: 17px;
+  line-height: 1.75;
+  margin-bottom: 34px;
+}
+
+.emotional-section__quote-2 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--terracotta-soft);
+}

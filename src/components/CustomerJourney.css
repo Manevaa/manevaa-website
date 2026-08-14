@@ -1,0 +1,37 @@
+.customer-journey { text-align: center; }
+.customer-journey__head { max-width: 500px; margin: 0 auto 48px; }
+.customer-journey__head .eyebrow { justify-content: center; }
+.customer-journey__head .eyebrow::before { display: none; }
+.customer-journey__head .section-heading { margin: 0 auto; }
+
+.customer-journey__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.customer-journey__step {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-size: clamp(18px, 2.6vw, 26px);
+  color: var(--brown);
+  padding: 10px 4px;
+}
+.customer-journey__chev { color: var(--terracotta); margin-left: 6px; }
+
+.customer-journey__micro {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--olive-deep);
+}
+
+@media (max-width: 600px) {
+  .customer-journey__row { flex-direction: column; gap: 2px; }
+  .customer-journey__chev { display: none; }
+}
