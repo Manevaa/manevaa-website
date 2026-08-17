@@ -3,9 +3,9 @@
 // (or point it at a local /src/assets file) once real Manevaa photography
 // is ready. Nothing elsewhere in the app needs to change.
 // ---------------------------------------------------------------------------
-
+import heroImage from '../assets/hero.jpg';
 export const images = {
-  heroMother: '/src/assets/hero.jpg',
+  heroMother: heroImage,
   heroThali: 'https://picsum.photos/seed/manevaa-hero-thali/900/900',
   storyMother: 'https://picsum.photos/seed/manevaa-story-kitchen/1000/1250',
   hygieneKitchen: 'https://picsum.photos/seed/manevaa-hygiene/1200/800',
