@@ -5,7 +5,7 @@
 // ---------------------------------------------------------------------------
 
 export const images = {
-  heroMother: 'https://picsum.photos/seed/manevaa-hero-mother/1200/1500',
+  heroMother: '/src/assets/hero.jpg',
   heroThali: 'https://picsum.photos/seed/manevaa-hero-thali/900/900',
   storyMother: 'https://picsum.photos/seed/manevaa-story-kitchen/1000/1250',
   hygieneKitchen: 'https://picsum.photos/seed/manevaa-hygiene/1200/800',
